@@ -5,15 +5,15 @@ import { Text } from '@rneui/themed';
 import EmailInput from '../components/EmailInput'
 import PasswordInput from '../components/PasswordInput'
 import Addons from '../components/Addons'
+import { Appbar } from 'react-native-paper';
+import AppBar from '../components/AppBar';
 
 
 const Login = () => {
-    const [email, setEmail] = React.useState('')
-    const [password, setPassword] = React.useState('')
-    const [checked, setChecked] = React.useState(false)
-
     return (
-        <View style={styles.container}>
+
+        <View >
+            <AppBar />
             <ScrollView
                 scrollEnabled={false}
                 keyboardShouldPersistTaps='always'
@@ -29,21 +29,17 @@ const Login = () => {
 }
 
 const styles = ScaledSheet.create({
-    container: {
-        flex: 1,
-        padding: '20@ms',
-        justifyContent: 'center',
-        backgroundColor: 'rgba(255, 245, 214, 0.1)',
-    },
+
     title: {
         fontSize: 24,
         marginBottom: '20@ms',
         textAlign: 'center',
     },
     scrollContent: {
-        top: '150@ms',
         flexGrow: 1,
         paddingBottom: '10@vs',
+        marginTop: '100@ms',
+        padding: 20,
     },
 })
 

@@ -13,7 +13,6 @@ const Screen1 = () => {
     })
     return (
         <View style={styles.container}>
-            <AppBar />
             <ScrollView
                 keyboardShouldPersistTaps='always'
                 contentContainerStyle={styles.scrollContent}
@@ -31,6 +30,7 @@ const styles = ScaledSheet.create({
         backgroundColor: 'rgba(255, 245, 214, 0.4)',
         alignItems: 'center',
         justifyContent: 'center',
+        marginTop: '30@ms'
     },
     text: {
         fontSize: '30@s',
