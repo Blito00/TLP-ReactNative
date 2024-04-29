@@ -25,19 +25,19 @@ Una vez dentro de la carpeta ejecutaremos el siguente comando:
 
 # Componentes basicos
 
-### 1- <View/>: 
+### 1- <View>: 
 Un componente contenedor que se utiliza para organizar otros componentes y controlar su diseño y estilo.
-### 2- <ScrollView/>: 
+### 2- <ScrollView>: 
 Un componente que proporciona una vista desplazable para mostrar una lista de elementos o contenido que no cabe completamente en la pantalla.
-### 3- <Text/>: 
+### 3- <Text>: 
 Se utiliza para mostrar texto en la interfaz de usuario.
-### 4- <Button/>: 
+### 4- <Button>: 
 Un componente que representa un botón interactivo que el usuario puede presionar para realizar una acción.
-### 5- <Image/>: 
+### 5- <Image>: 
 Permite mostrar imágenes en la aplicación.
-### 6- <TextInput/>: 
+### 6- <TextInput>: 
 Un componente que permite al usuario introducir texto mediante un teclado.
-### 7- <TouchableOpacity/>: 
+### 7- <TouchableOpacity>: 
 Un componente que envuelve a otros componentes y añade la capacidad de responder a toques del usuario, proporcionando retroalimentación visual cuando se toca.
 
 # React Native Navigation:
