@@ -1,23 +1,19 @@
-import { Text, View, Image, Button, TextInput, ScrollView } from 'react-native';
+import { Text, View, ScrollView } from 'react-native';
 import { ScaledSheet } from 'react-native-size-matters';
-import React, { useEffect, useState } from 'react';
-import AppBar from './AppBar';
+import React from 'react';
 import Cards from './Cards';
-import EmailInput from './EmailInput';
+import APIs from './APIs';
+
 
 const Screen1 = () => {
-    const [count, setCount] = useState(0)
-
-    useEffect(() => {
-        console.log('Incrementado!')
-    })
     return (
         <View style={styles.container}>
             <ScrollView
                 keyboardShouldPersistTaps='always'
                 contentContainerStyle={styles.scrollContent}
-                scrollEnabled={false}>
+                scrollEnabled={true}>
                 <Text style={styles.text}>Bienvenido a TLP 3</Text>
+                <APIs />
                 <Cards />
             </ScrollView>
         </View>
