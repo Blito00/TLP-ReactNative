@@ -13,7 +13,7 @@ const Screen1 = () => {
                 contentContainerStyle={styles.scrollContent}
                 scrollEnabled={true}>
                 <Text style={styles.text}>Bienvenido a TLP 3</Text>
-                <APIs />
+
                 <Cards />
             </ScrollView>
         </View>
@@ -26,7 +26,7 @@ const styles = ScaledSheet.create({
         backgroundColor: 'rgba(255, 245, 214, 0.4)',
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: '30@ms'
+        marginTop: '30@ms',
     },
     text: {
         fontSize: '30@s',

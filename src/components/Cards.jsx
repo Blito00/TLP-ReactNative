@@ -34,7 +34,23 @@ const Cards = () => {
                     <Image style={styles.image} source={require('../../assets/img/expo_reactnative.png')} />
                     <Text style={styles.text}>Curso de Programación movil avanzado.</Text>
                     <Button
-                        onPress={() => navigation.navigate('login')}
+                        onPress={() => navigation.navigate('register')}
+                        icon={
+                            <Ionicons name="enter-outline" size={24} color="white" style={styles.icon} />
+                        }
+                        buttonStyle={{ borderRadius: 15, backgroundColor: 'rgba(2,76,139,255)' }}
+                        title={'Iniciar Sesión'}
+                    />
+                </Card>
+            </View>
+            <View>
+                <Card containerStyle={styles.card}>
+                    <Card.Title style={styles.text}>Modulo N° 3</Card.Title>
+                    <Card.Divider />
+                    <Image style={styles.image} source={require('../../assets/img/expo_reactnative.png')} />
+                    <Text style={styles.text}>Curso de Programación movil avanzado.</Text>
+                    <Button
+                        onPress={() => navigation.navigate('apiscreen')}
                         icon={
                             <Ionicons name="enter-outline" size={24} color="white" style={styles.icon} />
                         }
