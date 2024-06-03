@@ -1,7 +1,7 @@
 UploadToCloudinary = async (imageUri) => {
   try {
-    const cloudName = 'dzdmlz9in'; // Reemplaza con tu nombre de Cloudinary
-    const unsignedUploadPreset = 'AOF_CLOUD'; // Reemplaza con tu unsigned upload preset
+    const cloudName = 'dicoyqogi'
+    const unsignedUploadPreset = 'TLP_REACT'
     const apiUrl = `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`;
     const formData = new FormData();
 

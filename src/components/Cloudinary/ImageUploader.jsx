@@ -12,10 +12,10 @@ const ImageUploader = () => {
     const pickImage = async () => {
         // Abre la galería de imágenes y espera la selección del usuario
         let result = await ImagePicker.launchImageLibraryAsync({
-            mediaTypes: ImagePicker.MediaTypeOptions.Images, // Solo permite seleccionar imágenes
+            mediaTypes: ImagePicker.MediaTypeOptions.All, // Solo permite seleccionar imágenes
             //allowsEditing: true,
             aspect: [4, 3],
-            quality: auto,
+            quality: 1,
         });
 
         console.log(result); // Imprime el resultado en la consola para depuración

@@ -18,7 +18,7 @@ const Cards = () => {
                     <Image style={styles.image} source={require('../../assets/img/expo_reactnative.png')} />
                     <Text style={styles.text}>Curso de Programación movil basico.</Text>
                     <Button
-                        onPress={() => navigation.navigate('login')}
+                        onPress={() => navigation.navigate('uploadimage')}
                         icon={
                             <Ionicons name="enter-outline" size={24} color="white" style={styles.icon} />
                         }
@@ -34,7 +34,7 @@ const Cards = () => {
                     <Image style={styles.image} source={require('../../assets/img/expo_reactnative.png')} />
                     <Text style={styles.text}>Curso de Programación movil avanzado.</Text>
                     <Button
-                        onPress={() => navigation.navigate('register')}
+                        onPress={() => navigation.navigate('uploadimage')}
                         icon={
                             <Ionicons name="enter-outline" size={24} color="white" style={styles.icon} />
                         }
